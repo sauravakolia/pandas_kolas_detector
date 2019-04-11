@@ -8,10 +8,10 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=ttps://drive.google.com/open?id=1dWa7HTd7qKtLz5QYWW5EkcCj0rcRbBr'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1YNMyfsx5XONEtX2DjeqPvK2dmYlxvUVF'
 export_file_name = 'export.pkl'
 
-classes = ['kolas', 'pandas']
+classes = ['pandas','kolas']
 path = Path(__file__).parent
 
 app = Starlette()
